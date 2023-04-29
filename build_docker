@@ -1,0 +1,5 @@
+
+$ docker build . -t black_hat_rust/ch12_linux_aarch64 -f Dockerfile.aarch64
+
+# in your Rust project
+$ docker run --rm -ti -v `pwd`:/app black_hat_rust/ch12_linux_aarch64
